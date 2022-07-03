@@ -1,6 +1,12 @@
 @import 'nav.css';
 @import 'footer.css';
 
+.notFoundimg {
+    display: inline-flex;
+    margin-left: 290px;
+    height: 500px;
+}
+
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
@@ -424,10 +430,24 @@ button {
     -webkit-transform: translateY(72px);
     transform: translateY(72px);
 }
+.successMesg {
+    color:green;
+    padding-left: 200px;
+    font-weight: bold;
+    display:none;
+}
 
-h2 {
+.errorMesg {
+    color:red;
+    padding-left: 180px;
+    font-weight: bold;
+    display:none;
+}
+
+
+h6 {
     width: 100%;
-    font-size: 26px;
+    font-size: 15px;
     text-align: center;
 }
 
